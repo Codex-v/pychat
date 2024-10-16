@@ -6,6 +6,7 @@ else:
 if version == 2:
     from Tkinter import *
     from tkFileDialog import asksaveasfilename
+    import os
 if version == 3:
     from tkinter import *
     from tkinter.filedialog import asksaveasfilename
