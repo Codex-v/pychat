@@ -1284,7 +1284,7 @@ def start_chat(username):
     menubar.add_cascade(label="Server", menu=server_menu)
 
     # Contacts menu
-    menubar.add_command(label="Contacts", command=lambda: contacts_window(root))
+    # menubar.add_command(label="Contacts", command=lambda: contacts_window(root))
 
     root.config(menu=menubar)
 
